@@ -4,8 +4,28 @@
 }
 
 .Nav {
-  
   background-color: #2F3061;
   color: #DFDFDF;
+  overflow: hidden;
+  text-decoration: none;
+  height: 40px;
 }
 
+a{
+  color: #DFDFDF;
+  text-decoration: none;
+}
+
+.NavContent {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  padding: 100% 16px;
+  text-decoration: inherit;
+  font-size: 20px;
+  margin-top: auto;
+}
+
+.NavContent:hover {
+  background-color: #5f5980;
+}
